@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const connection = mongoose.createConnection("mongodb://localhost:27017/hilti")
+const connection = mongoose.createConnection("mongodb+srv://hilti:TpQUezV5jeGSFJtD@newbase.0vmyrjl.mongodb.net/hilti?retryWrites=true&w=majority")
 .on('open',()=>{
     console.log("connected to db")
 })
